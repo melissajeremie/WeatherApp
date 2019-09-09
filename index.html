@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html lang='en'>
+
 <head>
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
@@ -7,28 +9,31 @@
   <title>Whatever The Weather</title>
   <link rel='stylesheet' type='text/css' href='./style/style.css'>
   <link href="https://fonts.googleapis.com/css?family=Quicksand:700&display=swap" rel="stylesheet">
+  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
 </head>
 
+
 <body>
+
   <div class="container">
 
     <div class="header">
       <div class="zip-input">
-        <input type="text" id="zip" value="Enter zip code">
+        <input type="text" id="zip" title="Enter zip code">
         <button type="button" id="search">search</button> </div>
       </div>
 
-    <div id="location"><h1>Location</h1> </div>
+    <div id="location"><h1>Enter your zip code</h1> </div>
 
     <div class="temp">
-      <div id="temp-icon"> </div>
-      <div id="temp-degrees"> <p>temp</p> </div>
-      <div class="temp-descrip"> <p> weather description here</p> </div>
+      <!-- <div id="temp-icon"> </div> -->
+      <div id="temp-degrees"> <p>above to get started!</p> </div>
+      <div id="temp-descrip"> <p>Whatever The Weather ©</p> </div>
     </div>
 
     <div class="min-max">
-      <p id="min">Today's low:</p>
-      <p id="max">Today's high:</p>
+      <p id="min"></p>
+      <p id="max"></p>
     </div>
 
   </div>
@@ -39,6 +44,6 @@
     - an element with a unique class, id, or data-attribute for each of the weather metrics you want to put on the page.
    -->
   <script src='./main.js'></script>
-  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+
 </body>
 </html>

@@ -1,5 +1,5 @@
 body {
-  background: radial-gradient(#a8bcd1,#6897bb);
+  background: radial-gradient(lightblue, pink);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -8,19 +8,19 @@ body {
 }
 
 .container {
-  background-image: url("daylight.jpg");
+  background-image: url("fluffyclouds.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px solid white;
+  border: 3px solid white;
   border-radius: 15%;
-  height: 600px;
+  height: 700px;
   width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: 'Quicksand', sans-serif;
-  color: white;
+  color: #b90239;
   margin-top: 50px;
 }
 .header {
@@ -36,27 +36,27 @@ body {
 }
 
 input {
-  height: 22px;
+  height: 32px;
   width: 120px;
-  border: 2px solid lightgray;
+  border: 3px solid gray;
   border-radius: 15%;
   margin: 5px;
   font-family: 'Quicksand', sans-serif;
-  color: lightgray;
-  font-size: 14px;
+  color: hotpink;
+  font-size: 16px;
 }
 
 button {
   font-family: 'Quicksand', sans-serif;
   color: white;
   font-weight: bold;
-  background: inherit;
-  height: 25px;
+  background: pink;
+  height: 35px;
   width: 80px;
-  border: 2px solid white;
+  border: 3px solid white;
   border-radius: 15%;
   margin: 5px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .location {
@@ -73,6 +73,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 35px;
 }
 
 .min-max {
