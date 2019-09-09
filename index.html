@@ -4,18 +4,41 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
   <meta http-equiv='X-UA-Compatible' content='ie=edge' />
-  <title>Weather app!!!!!</title>
-  <link rel='stylesheet' type='text/css' href='./style/reset.css'>
+  <title>Whatever The Weather</title>
   <link rel='stylesheet' type='text/css' href='./style/style.css'>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+  <div class="container">
+
+    <div class="header">
+      <div class="zip-input">
+        <input type="text" id="zip" value="Enter zip code">
+        <button type="button" id="search">search</button> </div>
+      </div>
+
+    <div id="location"><h1>Location</h1> </div>
+
+    <div class="temp">
+      <div id="temp-icon"> </div>
+      <div id="temp-degrees"> <p>temp</p> </div>
+      <div class="temp-descrip"> <p> weather description here</p> </div>
+    </div>
+
+    <div class="min-max">
+      <p id="min">Today's low:</p>
+      <p id="max">Today's high:</p>
+    </div>
+
+  </div>
   <!--
     HTML NEEDS
     - input box
     - submit button
-    - an element with a unique class, id, or data-attribute
-      for each of the weather metrics you want to put on the page.
+    - an element with a unique class, id, or data-attribute for each of the weather metrics you want to put on the page.
    -->
   <script src='./main.js'></script>
+  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
 </body>
 </html>

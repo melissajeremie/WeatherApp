@@ -1,0 +1,83 @@
+body {
+  background: radial-gradient(#a8bcd1,#6897bb);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  background-image: url("daylight.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid white;
+  border-radius: 15%;
+  height: 600px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  margin-top: 50px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zip-input {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+input {
+  height: 22px;
+  width: 120px;
+  border: 2px solid lightgray;
+  border-radius: 15%;
+  margin: 5px;
+  font-family: 'Quicksand', sans-serif;
+  color: lightgray;
+  font-size: 14px;
+}
+
+button {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-weight: bold;
+  background: inherit;
+  height: 25px;
+  width: 80px;
+  border: 2px solid white;
+  border-radius: 15%;
+  margin: 5px;
+  font-size: 14px;
+}
+
+.location {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.min-max {
+  width: 70%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
