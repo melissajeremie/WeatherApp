@@ -20,7 +20,7 @@ body {
   align-items: center;
   flex-direction: column;
   font-family: 'Quicksand', sans-serif;
-  color: #b90239;
+  color: #026db9;
   margin-top: 50px;
 }
 .header {
@@ -50,7 +50,7 @@ button {
   font-family: 'Quicksand', sans-serif;
   color: white;
   font-weight: bold;
-  background: pink;
+  background: rgb(126, 63, 142);
   height: 35px;
   width: 80px;
   border: 3px solid white;
@@ -81,4 +81,7 @@ button {
   display: flex;
   justify-content:space-between;
   align-items: center;
+}
+#temp-degrees {
+  text-align: center;
 }
